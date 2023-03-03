@@ -1,0 +1,12 @@
+#topbox {
+    background-color: #333333;
+    width: 100%; height: 40%;
+
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+
+.head {
+    text-align:justify;
+}

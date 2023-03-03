@@ -18,9 +18,9 @@ p {
 } 
 
 /* (0, 0, 0) */
-/* * {
+*{
     color:chocolate;
-} */
+}
 
 /* (0, 0 ,1) */
 div{
@@ -59,10 +59,11 @@ div{
 }
 
 .para-text {
-    font-family: monospace;
+    font-family: 'Tilt Prism', cursive;
     font-size: 20px;
 }
 
+/* apply to all elements */
 * {
     margin: 0;
     padding: 0;

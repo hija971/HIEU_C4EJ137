@@ -3,8 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" sectent="IE=edge">
+    <meta name="viewport" sectent="width=device-width, initial-scale=1.0">
     
     <title>Resume page</title>
 
@@ -17,61 +17,76 @@
     <link href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap" rel="stylesheet">
 </head>
 
-<body>
-    <div class="box" id="topbox">
-        <h1 class="head" id="mainhead">My Resume</h1>
-        <h2 class="head" id="subhead"></h2>
+<body style="background-color: #faf5dc;">
+    <div class="banner" id="topbanner">
+        <h1 class="head">My Resume</h1>
     </div>
-    <img src="https://bit.ly/3IZhw40" width="150px" height="150px" alt="a photo of literally me">
+    
+    <br>
 
-    <hr>
+    <img src="https://bit.ly/3IRkk1R" alt="a photo of literally me" class="pp">
 
-    <div>
-        <p>
-            <b>Interests:</b>
-            <ul>
-                <li>Music</li>
-                <li>Programming</li>
-                <li>Photography</li>
-                <li>Gaming</li>
-            </ul>   
-        </p>
-        
-        <p>
-            <b>Personal skills:</b>
-            <ul>
-                <li>Basic Python programming</li>
-                <li>(soon to be :?) Mobile development</li>
-            </ul>
-        </p>
+    <hr width="1000px">
 
-        <p>
-            <b>Education</b>
-            <ul>
-                <li><a href="http://epu.edu.vn/">EPU</a></li>
-                <li><a href="https://mindx.edu.vn/">MindX Technology School</a> (current) </li>
-            </ul>
-        </p>
+    <div class="container">
+        <div id="sect0">
+                <div class="banner" id="ban0">
+                    <div class="head">Personal profile</div>
+                </div> 
+                <ul class="list">
+                    <li>Graduated Automation Engineer</li>
+                    <li>Seeking a role in Fullstack/Mobile development</li>
+                </ul>
+        </div>
 
-        <p>
-            <b>Work experience</b>
-            <ul>
-                <li>Electrical engineer</li>
-                <li>Operation technician</li>
-            </ul>
-        </p>
+        <div id="sect1">    
+            <div class="banner" id="ban1">
+                <div class="head">Personal skills</div>
+            </div>
+                <ul class="list">
+                    <li>Basic Python programming</li>
+                    <li>(soon to be :?) Mobile development</li>
+                </ul>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div id="sect2">
+            <div class="banner" id="ban2">
+                <div class="head">Education</div>
+            </div>
+                <ul class="list">
+                    <li><a href="http://epu.edu.vn/">EPU</a></li>
+                    <li><a href="https://mindx.edu.vn/">MindX Technology School</a> (current) </li>
+                </ul>
+        </div>
 
-        <p>
-            <b>Extra info:</b>
-            <ul>
-                <li>POB: Hanoi</li>
-                <li>YOB: 1997</li>
-            </ul>
-        </p>
+        <div id="sect3">
+            <div class="banner" id="ban3">
+                <div class="head">Work experience</div>
+            </div>
+                <ul class="list">
+                    <li>Electrical engineer</li>
+                    <li>Operation technician</li>
+                </ul>
+        </div>
     </div>
 
-    <hr>
-    For work, contact me <a href="./lesson-2-hwcontact.html">here</a>
+    <div class="container">
+        <div id="sect4">
+            <div class="banner" id="ban4">
+                <div class="head">Extra info</div>
+            </div>    
+                <ul class="list">
+                    <li>POB: Hanoi</li>
+                    <li>YOB: 1997</li>
+                </ul>
+        </div>
+
+        <div class="list" id="sect5">   
+            For work, contact me <a href="./lesson-2-hwcontact.html">here</a>
+        </div>
+    </div>
 </body>
 
 </html>

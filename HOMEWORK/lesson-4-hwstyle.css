@@ -4,36 +4,115 @@
     box-sizing: border-box;
 }
 
-.container {
+.container{
     position: relative;
-    background-color: red;
     width: 100%;
-    height: 600px;
+    height: 750px;
 }
 
-.left {
+.left{
     position: absolute;
-    width: 550px;
-    height: 540px;
-    background-color:lightskyblue;
+    width: 43%;
+    height: 91.8%;
+    background-color:lightblue;
     left: 30px;
     top: 10px;
 }
 
-.left .p1 {
-    width: 500px;
-    ;
-    background-color: black;
-    margin-right: 25px;
-    margin-left: 25px;
-
+.left .p1{
+    background-color: bisque;
+    border: solid 2px;
+    border-color: burlywood;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    padding: 20px 100px;
+    text-align: center;
+    margin-top: 48px;
+    margin-left: 35px;
+    margin-right: 35px;
 }
+    .left .p2{
+        background-color:navajowhite;
+        border: solid 2px;
+        border-color: chocolate;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.8;
+        font-size: 22.5px;
+        padding: 25px 15px 15px 15px;
+        margin: 25px 35px 25px 35px;
+    }
+        .left .p3{
+            background-color: cadetblue;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            border-radius: 5px;
+            padding: 10px 20px;
+            display: inline-block;
+            margin-left: 35px;
+        }
 
-.right {
+.right{
     position: absolute;
-    width: 660px;
-    height: 480px;
-    background-color: gray;
+    width: 51.5%;
+    height: 83%;
+    background-color:darkgrey;
     right: 30px;
     top: 50px;
 }
+    .text{
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        padding: 50px 100px;
+    }
+    .m1{
+        background-color:mediumseagreen;
+        display: inline-block;
+        position: relative;
+        top: 120px;
+        left: 40px;
+    }
+    .m2{
+        background-color: green;
+        display: inline-block;
+        position: relative;
+        top: 30px;
+        left: 115px;
+    }
+    .m3{
+        background-color:darkcyan;
+        display: inline-block;
+        position: relative;
+        left: 190px;
+        top: 120px;
+    }
+    .mt{
+        background-color:antiquewhite;
+        display: inline-block;
+        position: relative;
+        top: 110px;
+        left: 115px;
+        padding: 50px 26px;
+        color: black;
+    }
+    .m4{
+        background-color: brown;
+        display: inline-block;
+        position: relative;
+        left: 680px;
+        bottom: -195px;
+    }
+    .m5{
+        background-color: palevioletred;
+        display: inline-block;
+        position: relative;
+        right: 130px;
+        top: 320px;
+    }
+    .m6{
+        background-color:indigo;
+        display: inline-block;
+        position: relative;
+        left: 40px;
+        bottom: -60px;
+    }

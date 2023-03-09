@@ -138,7 +138,7 @@
     display: block;
     background-color: blanchedalmond;
     text-align: center;
-    padding: 10px 50px;
+    padding: 5%;
     margin: 10px 10px;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -168,8 +168,8 @@
         font-size: 20px;
         font-family: Arial, Helvetica, sans-serif;
         border: solid 1px black;
-        left: 196px;
-        bottom: 55px;
+        left: 70%;
+        top: -46px;
     }
 
     

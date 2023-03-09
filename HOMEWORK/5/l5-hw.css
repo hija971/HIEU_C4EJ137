@@ -1,17 +1,32 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-.container{
-    width: 100%;
-    height: 10%;
+.container {
+  width: 100%;
+  height: 10%;
+  padding: 1%;
+  display: flex;
 }
 
-.left{
-    width: 40%;
-    display: flex;
-    flex-direction: row;
-    align-items: start;
+.img {
+  width: 20%;
+}
+
+.headeritems {
+  background-color: chartreuse;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.headeritems .leftitems {
+  position: relative;
+  
+}
+
+.headeritems .right {
+  position: relative;
 }

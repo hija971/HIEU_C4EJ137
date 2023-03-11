@@ -6,22 +6,42 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
     .grid-container{
         display: grid;
         width: auto;
         height: 700px;
-        grid: 50% 50% / 30% 30% 30%;
+        grid: 50% 50% / 32% 32% 32%;
         row-gap: 5%;
         column-gap: 2%;
+        margin: 2%;
     }
 
     .items{
         background-color: #FAFAFA;
         border-radius: 8px;
         padding: 3% 3% 0% 3%;
+        font-size: 17px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
-    .item1{
-        font-size: 20px;
+    .items .headers{
+        display: flex;
+        align-items: center;
+    }
+    .items .headers .name-tag{
+        margin-left: 10px;
+    }
+    .items .text-time {
+        margin-top: 3%;
+        margin-bottom: 2%;
+        line-height: 38px;
+    }
+    .items .actions{
+        word-spacing: 20px;
     }
 </style>
 
@@ -33,17 +53,122 @@
 <body>
     <div class="grid-container">
         <div class="items item1">
-            <header>
-                <i class="fa-brands fa-discord"></i>
-                <span>Chris Sev<br>@chris_sev</span>
+            <header class="headers">
+                <a href="#" style="color: inherit;"><i class="fa-brands fa-discord"></i></a>
+                <div class="name-tag">
+                    <a href="#" style="color:inherit; text-decoration: none;"><p><b>Chris Sev</b></p></a>
+                    <a href="#" style="color:inherit; text-decoration: none;"><p>@chris_sev</p></a>
+                </div>
             </header>
-            <p>Want a change of pace from Bootstrap? Try Bulma. It's my BFF right now <a href="#" style="text-decoration: none;">#bestframeworkforever</a> <a href="#" style="text-decoration: none;">scotch.io/bartalk</a></p>
+            <div class="text-time">
+                <p>Want a change of pace from Bootstrap? Try Bulma. It's my BFF right now<a href="#" style="text-decoration: none; color:royalblue;">#bestframeworkforever</a> <a href="#" style="text-decoration: none; color: royalblue;">scotch.io/bar-talk/get-t…</a></p>
+                <p><a href="#" style="text-decoration: none; color: grey;">9:00 PM - 21 Sep 2017</a></p>
+            </div>
+            <div class="actions">
+                <a href="#" style="color: gray;"><i class="fa-regular fa-comment"></i></a>
+                <a href="#" style="text-decoration: none; color: gray;"><i class="fa-solid fa-retweet"></i>15</a>
+                <a href="#" style="text-decoration: none; color: gray;"><i class="fa-regular fa-heart"></i>86</a>
+            </div>
         </div>
-        <div class="items item2"></div>
-        <div class="items item3"></div>
-        <div class="items item4"></div>
-        <div class="items item5"></div>
-        <div class="items item6"></div>
+        <div class="items item2">
+            <header class="headers">
+                <a href="#" style="color: inherit;"><i class="fa-solid fa-bug"></i></a>
+                <div class="name-tag">
+                    <a href="#" style="color:inherit; text-decoration: none;"><p><b>KwesForms</b></p></a>
+                    <a href="#" style="color:inherit; text-decoration: none;"><p>@kwesforms</p></a>
+                </div>
+            </header>
+            <div class="text-time">
+                <p>Rebuilt our entire frontend in Bulma! Loved every minute of it. Our dashboard is next 😁.<a href="#" style="text-decoration: none; color:royalblue;">@jgthms</a> <br><br> <a href="#" style="text-decoration: none; color: royalblue;">#javascript #CSS #Bulma #100DaysOfCode #DEVCommunity #html</a></p>
+                <p><a href="#" style="text-decoration: none; color: grey;">10:55 PM - 5 Oct 2020</a></p>
+            </div>
+            <div class="actions">
+                <a href="#" style="color: gray;"><i class="fa-regular fa-comment"></i></a>
+                <a href="#" style="text-decoration: none; color: gray;"><i class="fa-solid fa-retweet"></i>5</a>
+                <a href="#" style="text-decoration: none; color: gray;"><i class="fa-regular fa-heart"></i>7</a>
+            </div>
+        </div>
+        <div class="items item3">
+            <header class="headers">
+                <a href="#" style="color: inherit;"><i class="fa-solid fa-user-secret"></i></a>
+                <div class="name-tag">
+                    <a href="#" style="color:inherit; text-decoration: none;"><p><b>Luca Crea</b></p></a>
+                    <a href="#" style="color:inherit; text-decoration: none;"><p>@Luca_Crea</p></a>
+                </div>
+            </header>
+            <div class="text-time">
+                <p>Just dropped for my next project PureCSS - which I love - to try <a href="#" style="text-decoration: none; color:royalblue;">#Bulma</a> by <a href="#" style="text-decoration: none; color: royalblue;">@jgthms</a>🤝 I'm already 100% in 💚 with it.
+                    So many classes. Super cool #UI elements. A complete documentation. #Opensource
+                    I mean, if you didn't try Bulma <a href="#" style="text-decoration: none; color:royalblue;">#css</a> yet, check it out 👉 <a href="#" style="text-decoration: none; color:royalblue;">bulma.io</a></p>
+                <p><a href="#" style="text-decoration: none; color: grey;">9:00 PM - 21 Sep 2017</a></p>
+            </div>
+            <div class="actions">
+                <a href="#" style="color: gray;"><i class="fa-regular fa-comment"></i></a>
+                <a href="#" style="text-decoration: none; color: gray;"><i class="fa-solid fa-retweet"></i>8</a>
+                <a href="#" style="text-decoration: none; color: gray;"><i class="fa-regular fa-heart"></i>31</a>
+            </div>
+        </div>
+        <div class="items item4">
+            <header class="headers">
+                <a href="#" style="color: inherit;"><i class="fa-solid fa-microchip"></i></a>
+                <div class="name-tag">
+                    <a href="#" style="color:inherit; text-decoration: none;"><p><b>Thomas Dubosc</b></p></a>
+                    <a href="#" style="color:inherit; text-decoration: none;"><p>@Repraze</p></a>
+                </div>
+            </header>
+            <div class="text-time">
+                <p>I've been working on some<a href="#" style="text-decoration: none; color:royalblue;">@reactjs</a> layouts components along with some <a href="#" style="text-decoration: none; color: royalblue;">#CSS</a>
+                    extensions to <a href="#" style="text-decoration: none; color:royalblue;">#bulmaio</a> from <a href="#" style="text-decoration: none; color:royalblue;">@jgthms</a> - Featuring side panels, collapsible/flexible boxes and popout window that stay in sync through react portals! 
+                    I can create desktop like web apps now 👍 <a href="#" style="text-decoration: none; color:royalblue;">pic.twitter.com/G7OqZD7XSn</a>
+                </p>
+                <p><a href="#" style="text-decoration: none; color: grey;">6:25 PM - 15 Mar 2019</a></p>
+            </div>
+            <div class="actions">
+                <a href="#" style="color: gray;"><i class="fa-regular fa-comment"></i></a>
+                <a href="#" style="text-decoration: none; color: gray;"><i class="fa-solid fa-retweet"></i>3</a>
+                <a href="#" style="text-decoration: none; color: gray;"><i class="fa-regular fa-heart"></i>17</a>
+            </div>
+        </div>
+        <div class="items item5">
+            <header class="headers">
+                <a href="#" style="color: inherit;"><i class="fa-solid fa-cube"></i></a>
+                <div class="name-tag">
+                    <a href="#" style="color:inherit; text-decoration: none;"><p><b>Raid Boss Killer Prance (She/Her)</b></p></a>
+                    <a href="#" style="color:inherit; text-decoration: none;"><p>@pranceTheDeer</p></a>
+                </div>
+            </header>
+            <div class="text-time">
+                <p>Building a new site right now that I can't wait to show off soon. <a href="#" style="text-decoration: none; color:royalblue;">@jgthms</a> <a href="#" style="text-decoration: none; color: royalblue;">bulma.io</a>
+                <br>Loving working with it on this project.</p>
+                <p><a href="#" style="text-decoration: none; color: grey;">11:53 PM - 8 Jul 2019</a></p>
+            </div>
+            <div class="actions">
+                <a href="#" style="color: gray;"><i class="fa-regular fa-comment"></i></a>
+                <a href="#" style="text-decoration: none; color: gray;"><i class="fa-solid fa-retweet"></i>3</a>
+                <a href="#" style="text-decoration: none; color: gray;"><i class="fa-regular fa-heart"></i>11</a>
+            </div>
+        </div>
+        <div class="items item6">
+            <header class="headers">
+                <a href="#" style="color: inherit;"><i class="fa-solid fa-keyboard"></i></a>
+                <div class="name-tag">
+                    <a href="#" style="color:inherit; text-decoration: none;"><p><b>db4you</b></p></a>
+                    <a href="#" style="color:inherit; text-decoration: none;"><p>@db4you2</p></a>
+                </div>
+            </header>
+            <div class="text-time">
+                <p>Bloody hell.... To think that I was using my own simple framework for all of the <a href="#" style="text-decoration: none; color:royalblue;">#Frontend</a> 
+                    <a href="#" style="text-decoration: none; color: royalblue;">#webdevelopment.
+                    </a> Here is a my old login page vs <a href="#" style="text-decoration: none; color: royalblue;">bulma.io</a> framework... 
+                    Me so dumb. Why reinvent the wheel? Amazing job <a href="#" style="text-decoration: none; color: royalblue;">@jgthms #CSS pic.twitter.com/X5NnKZxyQq</a></p>
+                <p><a href="#" style="text-decoration: none; color: grey;">9:00 PM - 21 Sep 2017</a></p>
+            </div>
+            <div class="actions">
+                <a href="#" style="color: gray;"><i class="fa-regular fa-comment"></i></a>
+                <a href="#" style="text-decoration: none; color: gray;"><i class="fa-solid fa-retweet"></i>15</a>
+                <a href="#" style="text-decoration: none; color: gray;"><i class="fa-regular fa-heart"></i>86</a>
+            </div>
+        </div>
     </div>
 </body>
 </html>

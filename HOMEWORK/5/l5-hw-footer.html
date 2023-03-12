@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+    *{
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .footer-container{
+        display: grid;
+        width: auto;
+        height: 700px;
+        grid: 100% / 25% 25% 45%;
+        column-gap: 2%;
+        margin: 100px 50px 50px;
+    }
+    
+    .titles{
+        font-size: 30px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .links{
+        font-size: 20px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .icons{
+        margin-right: 2px;
+    }
+        .icon1{color: #FFD257;} .icon2{color: #F14668;} .icon3{color: #F96854;} .icon4{color: #3E8ED0;} .icon5{color: #ABF47C;}
+        .icon6{color: #F26522;} .icon7{color: #00D1B2;} .icon8{color: #48C78E;} .icon9{color: #FFE08A;} .icon10{color: #6F5499;}
+    .i-t-d{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .bold{
+        display: flex;
+        flex-grow: 1;
+    }
+    .details{
+        font-size: 15px;
+        color: lightgray;
+    }
+    .long .align{
+        text-align: right;
+    }
+</style>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer</title>
+</head>
+<body>
+    <div class="footer-container">
+        <div class="column-1-2" id="1st">
+            <p class="titles"><b>Home</b></p>
+            <p class="titles" style="margin-top: 60px;"><b>Blog</b></p>
+            <p class="links">The Bulma Block</p>
+            <p class="links">New feature: Icon Text</p>
+            <p class="links">Light/Dark colors, better look, larger controls</p>
+            <p class="links">Automatic variables docs</p>
+            <p class="links details">View all posts</p>
+        </div>
+
+        <div class="column-1-2" id="2nd">
+            <p class="titles"><b>Documentation</b></p>
+            <p class="links">Overview</p>
+            <p class="links">Utilities</p>
+            <p class="links">Customize</p>
+            <p class="links">Helpers</p>
+            <p class="links">Columns</p>
+            <p class="links">Layout</p>
+            <p class="links">Form</p>
+            <p class="links">Elements</p>
+            <p class="links">Components</p>
+        </div>
+
+        <div class="column-3">
+            <p class="titles"><b>More</b></p>
+
+            <p class="links i-t-d">
+                <i class="fas fa-star icons icon1"></i>
+                <span class="bold">Expo</span>
+                <span class="details">Official Bulma showcase</span>
+            </p>
+            <p class="links i-t-d">
+                <i class="fa-solid fa-heart icons icon2"></i>
+                <span class="bold">Love</span>
+                <span class="details">Fans of Bulma around the world</span>
+            </p>
+            <p class="links i-t-d">
+                <i class="fa-brands fa-patreon icons icon3"></i>
+                <span class="bold">Backers</span>
+                <span class="details">Everyone who is supporting Bulma via Patreon and Github</span>
+            </p>
+            <p class="links i-t-d">
+                <i class="fa-solid fa-globe icons icon4"></i>
+                <span class="bold">Bulma extensions</span>
+                <span class="details">Everyone who is supporting Bulma via Patreon and Github</span>
+            </p>
+            <p class="links i-t-d long">
+                <i class="fa-solid fa-bookmark icons icon5"></i>
+                <span class="bold">The official Bulma book</span>
+                <span class="details align">A step-by-step guide that teaches you how 
+                    to build a web interface from sratch using Bulma</span>
+            </p>
+            <p class="links i-t-d">
+                <i class="fa-solid fa-rss icons icon6"></i>
+                <span class="bold">Blog</span>
+                <span class="details">Stay updated with new features</span>
+            </p>
+            <p class="links i-t-d">
+                <i class="fa-solid fa-medal icons icon7"></i>
+                <span class="bold">Brand</span>
+                <span class="details">The official Bulma logos</span>
+            </p>
+            <p class="links i-t-d">
+                <i class="fa-solid fa-rocket icons icon8"></i>
+                <span class="bold">Bulma start</span>
+                <span class="details">A tiny npm package to get started</span>
+            </p>
+            <p class="links i-t-d">
+                <i class="fa-solid fa-certificate icons icon9"></i>
+                <span class="bold">Made with Bulma</span>
+                <span class="details">The official community badge</span>
+            </p>
+            <p class="links i-t-d">
+                <i class="fa-solid fa-right-left icons icon10"></i>
+                <span class="bold">Coming from Bootstrap</span>
+                <span class="details">See how Bulma is an alternative to Bootstrap</span>
+            </p>
+        </div>
+        </div>
+</body>
+</html>
